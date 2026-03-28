@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/faculty/:path*",
+      "destination": "/api/faculty"
+    },
+    {
+      "source": "/api/sections",
+      "destination": "/api/timetable"
+    },
+    {
+      "source": "/api/sections/:path*",
+      "destination": "/api/timetable"
+    }
+  ]
+}

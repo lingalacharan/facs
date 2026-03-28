@@ -1,0 +1,16 @@
+{
+  "name": "faculty-timetable-system",
+  "version": "1.0.0",
+  "description": "Full-stack Faculty & Classroom Timetable System",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.42.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "vercel": "^33.6.1"
+  }
+}
